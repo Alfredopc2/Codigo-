@@ -9,7 +9,7 @@ miNombre = input()
 número = random.randint(1, 20)
 print('Bueno, ' + miNombre + ', estoy pensando en un número entre 1 y 20.')
 
-while intentosRealizados < 6:
+while intentosRealizados < 5:
  print('Intenta adivinar.') # Hay cuatro espacios delante de print.
  estimación = input()
  estimación = int(estimación)
